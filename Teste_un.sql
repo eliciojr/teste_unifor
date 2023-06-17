@@ -19,6 +19,16 @@
    insert into tb_curso_disciplina_tutor
           (nu_codcurso, nu_coddisciplina, nu_codtutor)	value (3,1,2);
 10 - Subir os artefatos para o git/github	xx
+git init
+git status - verifica os arquivos que estão para serem versionados
+git add . - coloca os arquivos no git da maquina
+git commit -a -m 'Atividades Unifor - Primeira versão'
+git remote add origin https://github.com/eliciojr/teste_unifor.git
+git branch -M main
+git push -u origin main
+
+https://github.com/eliciojr/teste_unifor.git
+
 11 - Mostrar os objeto no git	  
 
 
