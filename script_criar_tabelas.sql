@@ -65,7 +65,7 @@ create table tb_curso_disciplina_tutor
   nu_coddisciplina       number  not null,
   nu_codtutor       number  not null
 );
---PRECISA FAZER TRIGGER PARA QUE O TUTOR SEJA DA MESMA REGIAO DO CURSO
+
 alter table tb_curso_disciplina_tutor add constraint PK_CURSO_DISCIPLINA_TUTOR primary key (nu_codcurso,nu_coddisciplina,nu_codtutor);
 alter table tb_curso_disciplina_tutor add constraint FK_CURSO_CURSO_DISCIPLINA_TUTOR foreign key (nu_codcurso) references tb_curso(nu_codcurso);
 alter table tb_curso_disciplina_tutor add constraint FK_DISCIPLINA_CURSO_DISCIPLINA_TUTOR foreign key (nu_coddisciplina) references tb_disciplina(nu_coddisciplina);

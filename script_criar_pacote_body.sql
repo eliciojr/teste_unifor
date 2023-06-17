@@ -323,17 +323,7 @@ exception
 	  vlimitecota:= 0;
 end;
 
-begin
-select 1
-	into vmesmaregiao
-	from tb_curso r
-	where r.nu_codcurso = pcd_nu_codcurso
-    and r.nu_codregiao = pcd_nu_codregiao;
-exception
-	when no_data_found then
-	  vmesmaregiao := 0;
-end;
-
+vmesmaregiao:=fn_mesmaregiao_cur_alu(pcd_nu_codcurso,pcd_nu_codregiao);
 
 if vexisteregiao = 1 and vexistecurso = 1 and (vlimitecota+1) <= vqtcota  and vmesmaregiao = 1 then
 
@@ -396,16 +386,7 @@ exception
 	  vexistecurso:= 0;
 end;
 
-begin
-select 1
-	into vmesmaregiao
-	from tb_curso r
-	where r.nu_codcurso = pcd_nu_codcurso
-    and r.nu_codregiao = pcd_nu_codregiao;
-exception
-	when no_data_found then
-	  vmesmaregiao := 0;
-end;
+vmesmaregiao:=fn_mesmaregiao_cur_alu(pcd_nu_codcurso,pcd_nu_codregiao);
 
 
 if vexisteregiao = 1 and vexistecurso = 1 and vmesmaregiao = 1 then
@@ -491,18 +472,7 @@ exception
 	  vexistedisciplina:= 0;
 end;
 
-begin
-select 1
-	into vmesmaregiao
-	from tb_curso r,tb_tutor t
-	where r.nu_codcurso = pcd_nu_codcurso
-	and t.nu_codtutor = pcd_nu_codtutor
-	and t.nu_codregiao = r.nu_codregiao;
-exception
-	when no_data_found then
-	  vmesmaregiao := 0;
-end;
-
+vmesmaregiao:=fn_mesmaregiao_cur_tut(pcd_nu_codcurso,pcd_nu_codtutor);
 
 if vexistetutor = 1 and vexistecurso = 1 and vexistedisciplina = 1 and vmesmaregiao = 1 then
 begin
