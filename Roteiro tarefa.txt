@@ -1,0 +1,39 @@
+A Universidade de Fortaleza na modalidade de EAD precisa manter o cadastro de seus
+alunos, tutores e cursos oferecidos. Atualmente estão disponíveis quatro municípios do
+Estado do Ceará (Crato, Sobral, Crateús e Tauá).
+
+As informações sobre cada aluno devem ser inicialmente registradas no ato da matrícula.
+Isso inclui o número de identificação do aluno, nome, ano de matrícula e região em que o
+aluno está localizado.
+
+As informações registradas para cada tutor devem incluir o número de identificação, nome e
+a região em que o tutor está localizado.
+
+As informações de cada curso devem incluir um código de curso, nome, disciplinas, tutores
+responsáveis e uma cota de alunos suportada para cada curso.
+
+Restrições:
+● O número máximo de alunos suportados por curso é de 30 alunos;
+
+● Um tutor só pode orientar alunos da mesma região pertencente ao tutor;
+
+● O aluno só pode ser inscrito em cursos disponíveis para sua região;
+
+● Uma disciplina pode ser comum a diversos cursos;
+
+● O tutor pode orientar disciplinas de diversos cursos.
+
+1) Identifique as possíveis entidades relacionadas ao fato acima descrito;
+
+2) Crie um Modelo DER com seus respectivos relacionamentos;
+
+3) Crie um script com os DDL's necessários para operações DML; (criar script para criação das tabelas, keys, trigger?)
+
+4) Para cada entidade crie em linguagem PLSQL as operações para manter os dados
+das diversas entidades identificadas. ?
+
+Observações: Após efetuar as atividades solicitadas, disponibilizar em repositório público
+no github os fontes necessários para avaliação.
+
+criar pacote com todas as funções de deletar, incluir e alterar alinos, curso, tutor, discuplina
+criar select para pegar todas as informações de aluno com os cursos , disciplinas e tutores
