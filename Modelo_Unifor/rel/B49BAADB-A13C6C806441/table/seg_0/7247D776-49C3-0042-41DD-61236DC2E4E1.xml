@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7247D776-49C3-0042-41DD-61236DC2E4E1" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="TB_CURSO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TB_CURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NU_CODCURSO" id="2C1C55F1-B690-07BC-7FCF-2E52E9027B80">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_CURSO</sourceObjSchema>
+<sourceObjName>NU_CODCURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CURSO" id="2FD270FB-CD53-7CA9-A1C2-746C79F7D58F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_CURSO</sourceObjSchema>
+<sourceObjName>NM_CURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_CODREGIAO" id="D0DF4E04-61D0-1EBE-DB01-71C9943ACA0B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_CURSO</sourceObjSchema>
+<sourceObjName>NU_CODREGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4539AD-0FBF-49C6-1F56-AACC9DB537D1" referredColumn="0C15D54C-AB93-312C-2043-19797781C257"/>
+</associations>
+</Column>
+<Column name="NU_COTA" id="B851DE7D-65D6-7217-8B73-2C2D85956B8D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_CURSO</sourceObjSchema>
+<sourceObjName>NU_COTA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D00C1AF2-56D9-B2D2-3859-C7032181008D" name="PK_CURSO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_CURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C1C55F1-B690-07BC-7FCF-2E52E9027B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBB8B0D7-718E-705C-36D0-7CF5B48EA74E" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="PK_CURSO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_CURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C1C55F1-B690-07BC-7FCF-2E52E9027B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26A66575-B6BE-015F-525D-95BEA8BF722D" name="FK_REGIAO_CURSO">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0DF4E04-61D0-1EBE-DB01-71C9943ACA0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

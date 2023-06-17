@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0BA68A3A-8AD8-007B-32F6-316A09F6AB45">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

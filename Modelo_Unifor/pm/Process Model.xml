@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="85C80E74-1B8B-ADD8-09B1-E4563ED91DFD">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

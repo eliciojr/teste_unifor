@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_DISCIPLINA" directorySegmentName="seg_0" id="58AAC05E-3557-1A73-7845-FCA37415C893">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<schemaObject>7E2DA6FD-B610-C168-C519-502692A35A11</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DFBEFFA1-6231-CEEF-F4F0-00C8202EFCA3</segment>
+<tableSpace>D2C3932A-D7F6-CCF3-7BE6-7B49BBFAFC58</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NU_CODDISCIPLINA" id="6B798886-65D7-E144-A8EC-E1500C4CEF1A">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_DISCIPLINA" id="B8BDFAA7-84E9-30EA-FBDB-32F635FCF1B7">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_DISCIPLINA" id="78E735DE-F929-8E1B-F16E-0F4715BB0642">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<schemaObject>7E2DA6FD-B610-C168-C519-502692A35A11</schemaObject>
+<segment>A7FD68FD-9208-FA41-DEBD-B31AE75EB8DE</segment>
+<tableSpace>D2C3932A-D7F6-CCF3-7BE6-7B49BBFAFC58</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DISCIPLINA" id="BE556F6B-D431-DB12-C713-5F4CBB52C54E">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<segment>A7FD68FD-9208-FA41-DEBD-B31AE75EB8DE</segment>
+<tableSpace>D2C3932A-D7F6-CCF3-7BE6-7B49BBFAFC58</tableSpace>
+<existingIndex>78E735DE-F929-8E1B-F16E-0F4715BB0642</existingIndex>
+<indexSegment>A7FD68FD-9208-FA41-DEBD-B31AE75EB8DE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

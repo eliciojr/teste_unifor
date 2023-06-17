@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5498A6B-5E07-501D-D707-C78C6916C42D" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="TB_ALUNO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TB_ALUNO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NU_CODALUNO" id="C6DD72A5-4EE4-4DD8-177F-A4CDBFEAB6C9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_ALUNO</sourceObjSchema>
+<sourceObjName>NU_CODALUNO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:44 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ALUNO" id="E04EFE28-44A6-CF2E-5471-74E7087F200C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_ALUNO</sourceObjSchema>
+<sourceObjName>NM_ALUNO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_MATRICULA" id="E2893669-F83F-D1A9-8965-3EDE1200CDB1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_ALUNO</sourceObjSchema>
+<sourceObjName>DT_MATRICULA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_CODREGIAO" id="B89A4F3B-D16D-F7E2-0658-ABA99D8BFDA9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_ALUNO</sourceObjSchema>
+<sourceObjName>NU_CODREGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F74FE6A-E198-2CBE-914E-ECE4108931AE" referredColumn="0C15D54C-AB93-312C-2043-19797781C257"/>
+</associations>
+</Column>
+<Column name="NU_CODCURSO" id="1A52DA95-F6F1-2BFA-C8D1-58856D01A314">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_ALUNO</sourceObjSchema>
+<sourceObjName>NU_CODCURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="010CC4F1-8D87-E3F2-E97F-EB0A052E467F" referredColumn="2C1C55F1-B690-07BC-7FCF-2E52E9027B80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D344D49B-44AF-DD83-5029-D17C02579778" name="PK_ALUNO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_ALUNO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6DD72A5-4EE4-4DD8-177F-A4CDBFEAB6C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA9835D4-691D-69BC-A4B0-555F479D2457" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="PK_ALUNO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_ALUNO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6DD72A5-4EE4-4DD8-177F-A4CDBFEAB6C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4DD47EE-8CD1-C2F5-0B4C-1FF484C196DC" name="FK_CURSO_ALUNO">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A52DA95-F6F1-2BFA-C8D1-58856D01A314"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4541B954-6DF3-3BB4-F00D-7F6742C8D83C" name="FK_REGIAO_ALUNO">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89A4F3B-D16D-F7E2-0658-ABA99D8BFDA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

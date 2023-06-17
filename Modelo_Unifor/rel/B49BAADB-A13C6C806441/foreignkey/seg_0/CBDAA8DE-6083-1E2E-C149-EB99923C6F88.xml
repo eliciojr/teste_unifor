@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBDAA8DE-6083-1E2E-C149-EB99923C6F88" containerWithKeyObject="CECD80CC-A0AA-8143-B855-B227DF4AB3B4" localFKIndex="FD3C2146-BFF2-E2B9-1A69-3D22689AEF59" name="FK_REGIAO_TUTOR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_REGIAO_TUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<referredTableLongName>SYSTEM.TB_REGIAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22EDCC20-F163-C7A0-9F78-90A5504A2C44</referredTableID>
+<keyObject>B8895546-5FF1-47C4-4848-E2469F40F0A5</keyObject>
+<referredKeyID>B8895546-5FF1-47C4-4848-E2469F40F0A5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>NU_CODREGIAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

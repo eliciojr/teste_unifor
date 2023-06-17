@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12cR2 class="oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2" name="Oracle Database 12cR2" id="5C0D1525-F24F-1BBD-18FA-89E58B46D53D" siteID="79C73AAF-E1A7-E669-7DF0-025EE81A2AFC" siteName="Oracle Database 12cR2" siteType="14">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:19:39 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</StorageDesignOraclev12cR2>

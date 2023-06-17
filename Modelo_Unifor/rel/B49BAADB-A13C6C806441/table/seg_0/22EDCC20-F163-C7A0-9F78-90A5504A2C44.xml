@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22EDCC20-F163-C7A0-9F78-90A5504A2C44" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="TB_REGIAO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TB_REGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NU_CODREGIAO" id="0C15D54C-AB93-312C-2043-19797781C257">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_REGIAO</sourceObjSchema>
+<sourceObjName>NU_CODREGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_REGIAO" id="046A338E-1F36-F56B-5C57-B3F1462CF4CE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_REGIAO</sourceObjSchema>
+<sourceObjName>NM_REGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8895546-5FF1-47C4-4848-E2469F40F0A5" name="PK_REGIAO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_REGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C15D54C-AB93-312C-2043-19797781C257"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B6769DD-777B-23B3-2DD4-439F935EFA6B" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="PK_REGIAO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_REGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C15D54C-AB93-312C-2043-19797781C257"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

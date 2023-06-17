@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B49BAADB-CA05-601C-3967-A13C6C806441" mainViewID="09693879-7E7D-C393-128B-44AD95D309E5">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:07:50 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>local</connName>
+<connUser>system</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

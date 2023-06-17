@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_VALIDARCOTA_CURSO" directorySegmentName="seg_0" id="D608AF96-BD6C-9011-7BEE-9882931B4FE1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TRG_VALIDARCOTA_CURSO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+    IF :NEW.nu_cota > 30 THEN
+        RAISE_APPLICATION_ERROR(-20000, 'LIMITE DE COTA É DE 30 ALUNOS');
+    END IF;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>B851DE7D-65D6-7217-8B73-2C2D85956B8D</columns>
+<owner>1E990EAD-7C45-B093-8D74-D8C784A95A24</owner>
+<table>7247D776-49C3-0042-41DD-61236DC2E4E1</table>
+</TriggerOraclev10g>

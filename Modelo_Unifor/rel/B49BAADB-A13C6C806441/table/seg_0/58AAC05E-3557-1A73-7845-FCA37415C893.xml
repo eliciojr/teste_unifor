@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58AAC05E-3557-1A73-7845-FCA37415C893" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="TB_DISCIPLINA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TB_DISCIPLINA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NU_CODDISCIPLINA" id="6B798886-65D7-E144-A8EC-E1500C4CEF1A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_DISCIPLINA</sourceObjSchema>
+<sourceObjName>NU_CODDISCIPLINA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_DISCIPLINA" id="B8BDFAA7-84E9-30EA-FBDB-32F635FCF1B7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_DISCIPLINA</sourceObjSchema>
+<sourceObjName>NM_DISCIPLINA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE556F6B-D431-DB12-C713-5F4CBB52C54E" name="PK_DISCIPLINA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_DISCIPLINA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B798886-65D7-E144-A8EC-E1500C4CEF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78E735DE-F929-8E1B-F16E-0F4715BB0642" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="PK_DISCIPLINA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_DISCIPLINA</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B798886-65D7-E144-A8EC-E1500C4CEF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

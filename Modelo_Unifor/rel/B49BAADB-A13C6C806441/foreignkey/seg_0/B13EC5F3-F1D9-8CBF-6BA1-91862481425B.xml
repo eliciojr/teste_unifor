@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B13EC5F3-F1D9-8CBF-6BA1-91862481425B" containerWithKeyObject="B21D9673-25F6-350F-F685-1F1DA9139EFF" localFKIndex="42D165E1-0A84-D261-F2D7-3529B5B9BB1E" name="FK_DISCIPLINA_CURSO_DISCIPLINA_TUTOR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_DISCIPLINA_CURSO_DISCIPLINA_TUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<referredTableLongName>SYSTEM.TB_DISCIPLINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58AAC05E-3557-1A73-7845-FCA37415C893</referredTableID>
+<keyObject>BE556F6B-D431-DB12-C713-5F4CBB52C54E</keyObject>
+<referredKeyID>BE556F6B-D431-DB12-C713-5F4CBB52C54E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NU_CODDISCIPLINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

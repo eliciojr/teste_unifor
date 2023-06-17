@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CEF9CD13-A11A-DD05-ECEE-6E10EC241820" mainViewID="A810CDF8-5BB2-E5B1-CD56-4EED70B5C952">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:07:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

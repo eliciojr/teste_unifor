@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CECD80CC-A0AA-8143-B855-B227DF4AB3B4" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="TB_TUTOR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TB_TUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NU_CODTUTOR" id="65EA4998-F914-D9E1-5D4D-2A282B7D59F1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_TUTOR</sourceObjSchema>
+<sourceObjName>NU_CODTUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TUTOR" id="3470C50E-2B3F-A925-9C9E-5AB44903E78D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_TUTOR</sourceObjSchema>
+<sourceObjName>NM_TUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_CODREGIAO" id="DA2315AD-06F8-E938-551C-1DFAC7254824">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TB_TUTOR</sourceObjSchema>
+<sourceObjName>NU_CODREGIAO</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBDAA8DE-6083-1E2E-C149-EB99923C6F88" referredColumn="0C15D54C-AB93-312C-2043-19797781C257"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02C3A502-A180-3147-6BB6-E507A318432E" name="PK_TUTOR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65EA4998-F914-D9E1-5D4D-2A282B7D59F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48A88E7B-BBF2-FF45-EAC2-03A38069FF46" schemaObject="7E2DA6FD-B610-C168-C519-502692A35A11" name="PK_TUTOR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TUTOR</sourceObjName>
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65EA4998-F914-D9E1-5D4D-2A282B7D59F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD3C2146-BFF2-E2B9-1A69-3D22689AEF59" name="FK_REGIAO_TUTOR">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA2315AD-06F8-E938-551C-1DFAC7254824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

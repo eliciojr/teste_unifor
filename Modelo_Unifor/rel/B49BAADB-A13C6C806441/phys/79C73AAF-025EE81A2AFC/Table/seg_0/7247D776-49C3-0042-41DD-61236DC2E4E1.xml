@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_CURSO" directorySegmentName="seg_0" id="7247D776-49C3-0042-41DD-61236DC2E4E1">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:43 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<schemaObject>7E2DA6FD-B610-C168-C519-502692A35A11</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DFBEFFA1-6231-CEEF-F4F0-00C8202EFCA3</segment>
+<tableSpace>D2C3932A-D7F6-CCF3-7BE6-7B49BBFAFC58</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NU_CODCURSO" id="2C1C55F1-B690-07BC-7FCF-2E52E9027B80">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_CURSO" id="2FD270FB-CD53-7CA9-A1C2-746C79F7D58F">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NU_COTA" id="B851DE7D-65D6-7217-8B73-2C2D85956B8D">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NU_CODREGIAO" id="D0DF4E04-61D0-1EBE-DB01-71C9943ACA0B">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CURSO" id="EBB8B0D7-718E-705C-36D0-7CF5B48EA74E">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:45 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<schemaObject>7E2DA6FD-B610-C168-C519-502692A35A11</schemaObject>
+<segment>A7FD68FD-9208-FA41-DEBD-B31AE75EB8DE</segment>
+<tableSpace>D2C3932A-D7F6-CCF3-7BE6-7B49BBFAFC58</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_REGIAO_CURSO" id="26A66575-B6BE-015F-525D-95BEA8BF722D">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:47 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CURSO" id="D00C1AF2-56D9-B2D2-3859-C7032181008D">
+<createdBy>Elicio</createdBy>
+<createdTime>2023-06-17 14:20:46 UTC</createdTime>
+<ownerDesignName>Modelo_Unifor</ownerDesignName>
+<segment>A7FD68FD-9208-FA41-DEBD-B31AE75EB8DE</segment>
+<tableSpace>D2C3932A-D7F6-CCF3-7BE6-7B49BBFAFC58</tableSpace>
+<existingIndex>EBB8B0D7-718E-705C-36D0-7CF5B48EA74E</existingIndex>
+<indexSegment>A7FD68FD-9208-FA41-DEBD-B31AE75EB8DE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
